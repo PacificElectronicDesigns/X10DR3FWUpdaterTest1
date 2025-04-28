@@ -1,0 +1,15 @@
+{
+    "name": "X10DR3 Web Tool Demo",
+    "new_install_prompt_erase": true,
+    "builds": [
+      {
+        "chipFamily": "ESP32-S3",
+        "parts": [
+          { "path": "boot_app0.bin", "offset": 57344 },
+          { "path": "X10DR3.bin", "offset": 65536 },
+          { "path": "SerialHelloWorld.ino.bootloader.bin", "offset": 4096 },
+          { "path": "SerialHelloWorld.ino.partitions.bin", "offset": 32768 }
+        ]
+      }
+    ]
+  }
