@@ -1,12 +1,15 @@
 {
-    "name": "X10DR3 Web Tool Demo 2024-04-29",
-    "new_install_prompt_erase": true,
-    "builds": [
-      {
-        "chipFamily": "ESP32-S3",
-        "parts": [
-          { "path": "X10DR3-merge.bin", "offset": 0 }
-        ]
-      }
-    ]
-  }
+  "name": "X10DR3 Web Tool Demo 2024-04-30",
+  "new_install_prompt_erase": true,
+  "builds": [
+    {
+      "chipFamily": "ESP32-S3",
+      "parts": [
+        {
+          "path": "X10DR3-merge.bin",
+          "offset": 0
+        }
+      ]
+    }
+  ]
+}
