@@ -3,14 +3,21 @@
 
 
 <body>
-    <h1>X10DR3 Web Flasher - Updated 2024-04-30</h1>
+    <img src="x10dr-logo-blackbackground.jpg" alt="X10DR Logo" width="703" height="235">
+    <br><br>
+    <h1>X10DR3 Firmware Updater - Updated 2024-04-30</h1>
 
     <div id="main" style="display: none;">
 
         <br>
         <script type="module" src="https://unpkg.com/esp-web-tools@10/dist/web/install-button.js?module"></script>
 
-        <esp-web-install-button id="installButton" manifest="webflash/manifest.json"></esp-web-install-button>
+        <esp-web-install-button id="installButton" manifest="webflash/manifest.json">
+            <button slot="activate">Connect to X10DR3</button>
+            <span slot="unsupported">Ah snap, your browser is not supported. Please try Chrome, Edge or Safari. You may
+                need to allow Web Serial if asked.</span>
+            <span slot="not-allowed">Ah snap, please allow HTTPS connections. Does not work with HTTP.</span>
+        </esp-web-install-button>
         <br><br>
         <span>NOTE: Make sure to close anything using your devices com port (e.g. Serial monitor)</span>
     </div>
