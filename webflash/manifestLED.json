@@ -1,0 +1,15 @@
+{
+  "name": "X10DR3 Development 2024-05-07 - LED Colour Test",
+  "new_install_prompt_erase": true,
+  "builds": [
+    {
+      "chipFamily": "ESP32-S3",
+      "parts": [
+        {
+          "path": "X10DR3-merge-LED.bin",
+          "offset": 0
+        }
+      ]
+    }
+  ]
+}
