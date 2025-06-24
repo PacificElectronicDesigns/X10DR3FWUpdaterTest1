@@ -1,0 +1,15 @@
+{
+  "name": "X10DR3 Development 2025-06-24 - Non-FEC",
+  "new_install_prompt_erase": true,
+  "builds": [
+    {
+      "chipFamily": "ESP32-S3",
+      "parts": [
+        {
+          "path": "X10DR3-merge2.bin",
+          "offset": 0
+        }
+      ]
+    }
+  ]
+}
