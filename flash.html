@@ -35,7 +35,7 @@
         <img src="x10dr-logo-blackbackground.png" alt="X10DR Logo" style="width:50%;">
     </div>
     <br><br>
-    <h1>X10DR3 Firmware Updater <br> Updated 2025-06-24 - Button 1 FEC / Button 2 Non-FEC</h1>
+    <h1>X10DR3 Firmware Updater <br> Updated 2025-06-24</h1>
 
     <div id="main" style="display: none;">
 
@@ -43,17 +43,17 @@
         <script type="module" src="https://unpkg.com/esp-web-tools@10/dist/web/install-button.js?module"></script>
 
         <esp-web-install-button id="installButton" manifest="webflash/manifest.json">
-             
+             <h1>FEC</h1>
             <span slot="unsupported">Ah snap, your browser is not supported. Please try Chrome, Edge or Safari. You may
                 need to allow Web Serial if asked.</span>
             <span slot="not-allowed">Ah snap, please allow HTTPS connections. Does not work with HTTP.</span>
         </esp-web-install-button>
 
-        <br>
+        <br><br><br>
         <script type="module" src="https://unpkg.com/esp-web-tools@10/dist/web/install-button.js?module"></script>
 
         <esp-web-install-button id="installButton" manifest="webflash/manifest2.json">
-             
+          <h1>Non-FEC</h1>   
             <span slot="unsupported">Ah snap, your browser is not supported. Please try Chrome, Edge or Safari. You may
                 need to allow Web Serial if asked.</span>
             <span slot="not-allowed">Ah snap, please allow HTTPS connections. Does not work with HTTP.</span>
