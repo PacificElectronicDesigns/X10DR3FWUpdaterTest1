@@ -1,5 +1,5 @@
 {
-  "name": "X10DR3 Development 2025-06-25 - FEC",
+  "name": "X10DR3 Development 2025-06-25 - FEC and Low Batt Warnings",
   "new_install_prompt_erase": true,
   "builds": [
     {
