@@ -1,12 +1,12 @@
 {
-  "name": "X10DR3 2025-07-09 FEC Low Batt",
+  "name": "X10DR3 2025-07-09 FEC Low Batt XRIB",
   "new_install_prompt_erase": true,
   "builds": [
     {
       "chipFamily": "ESP32-S3",
       "parts": [
         {
-          "path": "X10DR3-merge.bin",
+          "path": "X10DR3-merge-FEC.bin",
           "offset": 0
         }
       ]
