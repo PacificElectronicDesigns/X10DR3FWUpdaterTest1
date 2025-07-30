@@ -6,7 +6,7 @@
       "chipFamily": "ESP32-S3",
       "parts": [
         {
-          "path": "X10DR3-merge-NOFEC.bin",
+          "path": "X10DR3-merge-NON-FEC.bin",
           "offset": 0
         }
       ]
