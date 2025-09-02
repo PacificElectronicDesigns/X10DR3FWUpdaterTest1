@@ -1,12 +1,12 @@
 {
-  "name": "X10DR3 2025-08-27 FEC Website and Firmware Updater",
+  "name": "X10DR3 2025-09-02 FEC Website and Firmware Updater",
   "new_install_prompt_erase": true,
   "builds": [
     {
       "chipFamily": "ESP32-S3",
       "parts": [
         {
-          "path": "X10DR3-merge-FEC.bin",
+          "path": "X10DR3-merge.bin",
           "offset": 0
         }
       ]
