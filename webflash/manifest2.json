@@ -1,12 +1,12 @@
 {
-  "name": "X10DR3 2025-07-30 No FEC Wifi Stack Fixed",
+  "name": "X10DR3 2025-11-20",
   "new_install_prompt_erase": true,
   "builds": [
     {
       "chipFamily": "ESP32-S3",
       "parts": [
         {
-          "path": "X10DR3-merge-NON-FEC.bin",
+          "path": "X10DR3-merge-2025-11-20.bin",
           "offset": 0
         }
       ]
