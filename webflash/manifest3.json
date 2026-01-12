@@ -1,12 +1,12 @@
 {
-  "name": "X10DR3 2025-08-06 Website Testing",
+  "name": "X10DR3 2025-11-19",
   "new_install_prompt_erase": true,
   "builds": [
     {
       "chipFamily": "ESP32-S3",
       "parts": [
         {
-          "path": "X10DR3-merge-web.bin",
+          "path": "X10DR3-merge-2025-11-19.bin",
           "offset": 0
         }
       ]
