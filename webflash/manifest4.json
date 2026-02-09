@@ -1,0 +1,15 @@
+{
+  "name": "X10DR3 2026-02-04",
+  "new_install_prompt_erase": true,
+  "builds": [
+    {
+      "chipFamily": "ESP32-S3",
+      "parts": [
+        {
+          "path": "X10DR3-merge-2026-02-04.bin",
+          "offset": 0
+        }
+      ]
+    }
+  ]
+}
