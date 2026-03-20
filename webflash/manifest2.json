@@ -6,7 +6,7 @@
       "chipFamily": "ESP32-S3",
       "parts": [
         {
-          "path": "X10DR3-merge-2025-11-20.bin",
+          "path": "X10DR3-merge-2026-03-19.bin",
           "offset": 0
         }
       ]
